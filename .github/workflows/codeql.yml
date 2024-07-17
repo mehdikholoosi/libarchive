@@ -5,9 +5,9 @@ permissions:
 
 on:
   push:
-    branches: [ "master", "3.5" ]
+    branches: [ "My-master", "3.5" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "My-master" ]
   schedule:
     - cron: "49 4 * * 2"
 
